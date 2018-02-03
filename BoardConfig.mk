@@ -14,7 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Define device specific variables to msm7x27a-common
 LGE_MSM7X27A_DEVICE := e610
+LGE_MSM7X27A_GENERATION := 1
+LGE_MSM7X27A_PRODUCT := m4
 
 # inherit from the proprietary things
 include device/lge/msm7x27a-common/BoardConfigCommon.mk

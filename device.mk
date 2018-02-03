@@ -16,7 +16,10 @@
 # This file includes all definitions that apply to ALL L5 devices
 # Everything in this directory will become public
 
+# Define device specific variables to msm7x27a-common
 LGE_MSM7X27A_DEVICE := e610
+LGE_MSM7X27A_GENERATION := 1
+LGE_MSM7X27A_PRODUCT := m4
 
 $(call inherit-product, device/lge/msm7x27a-common/msm7x27a-common.mk)
 $(call inherit-product-if-exists, vendor/lge/e610/e610-vendor.mk)
